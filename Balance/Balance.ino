@@ -103,7 +103,7 @@ axxx=int(accelerometer_y)/4000;
 //}
 delay(20);
     if (axxx > desire) {
-        analogWrite(p6, 100);
+        analogWrite(p6, 255);
         delay(50);
         analogWrite(p6, 0);
     }
@@ -113,7 +113,7 @@ delay(20);
     //right
 
     if (axxx < desire) {
-        analogWrite(p5, 100);
+        analogWrite(p5, 255);
         delay(50);
         analogWrite(p5, 0);
     }
